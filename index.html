@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <input type="checkbox" id="check" aria-hidden="true">
+
+            <div id="registration-box">
+                <form id="registration-form">
+                    <label for="check" aria-hidden="true">Sign up</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="password" name="repeatPassword" id="repeat-password" placeholder="Repeat password">
+                    <button type="submit" id="btn-register">Sign up</button>
+                    <p id="fail-psw">Passwords don't match</p>
+                    <p id="registration-ok">Succesful registration. Please log-in</p>
+                </form>
+            </div>
+
+            <div id="log-in-box">
+                
+                <form id="log-in">
+                    <label for="check" aria-hidden="true">Login</label>
+                    <input type="email" name="email" id="user-mail" placeholder="Email">
+                    <input type="password" name="password" id="password-log" placeholder="Password">
+                    <button type="submit" id="btn-log">Log in</button>
+                    <p id="fail-log">Failed to log in</p>
+                </form>
+            </div>
+        
+    </div>
+
+ 
+</body>
+</html>
